@@ -1,0 +1,13 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+.surfpool
+
+# 개인 키(지갑) 파일 유출 방지용
+*.json
+!package.json      # Node.js 설정 파일은 올라가야 하므로 예외 처리
+!tsconfig.json     # TypeScript 설정 파일은 올라가야 하므로 예외 처리
